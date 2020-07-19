@@ -129,7 +129,7 @@ typedef struct Z80_STATE {
         union {
 
                 unsigned char   byte[14];
-                unsigned short  word[7];
+                unsigned short  word[7];	// Regs: BC, DE, HL, AF, IX, IY, SP
 
         } registers;
 
